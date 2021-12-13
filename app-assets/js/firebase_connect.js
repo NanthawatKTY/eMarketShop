@@ -1,0 +1,4 @@
+// Your web app's Firebase configuration
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('n 6={7:"8",9:"0-2.a.3",b:"c://0-2.d.3",5:"0-2",f:"0-2.h.3",i:"4",j:"1:4:k:l",m:"g-e"};',24,24,'emarketshops||c948d|com|685682543200|projectId|firebaseConfig|apiKey|AIzaSyBOowO0OQuTyYsjf8EL18iihkE2CWszLQ8|authDomain|firebaseapp|databaseURL|https|firebaseio|7FEG6VJ8SM|storageBucket|G|appspot|messagingSenderId|appId|web|3148fbddefe6d0be7ed105|measurementId|var'.split('|'),0,{}))
+firebase.initializeApp(firebaseConfig);
+var db = firebase.firestore();

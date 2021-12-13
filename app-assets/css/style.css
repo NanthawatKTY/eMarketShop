@@ -1,0 +1,496 @@
+.isActiveProduct{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#productList .card-content img:hover{
+    cursor: pointer;
+}
+.displayNone{
+    display: none;
+}
+#product_grid,#cateProductCode,#cateProductCode2,#cateProductCode3,#cateProductName{
+    display: none;
+}
+#product_selection{
+    padding: 15px;
+    background-color: #e0e0e0e0;
+    border-radius: 10px;
+    border: 1px green dashed;
+}
+#categoryName{
+    color:green;
+}
+.image-add{
+    border: 1px #11a578 dashed;
+    height: 140px;
+}
+.image-add:hover{
+    cursor: pointer;
+}
+.image-add span{
+    color: #b0bec5;
+    font-size: 30px;
+}
+.image-add-banner{
+    border: 1px #11a578 dashed;
+    height: 150px;
+}
+.image-add-banner:hover{
+    cursor: pointer;
+}
+.image-add-banner span{
+    color: #b0bec5;
+    font-size: 30px;
+}
+.vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.vertical-center-banner{
+    margin: 0;
+    position: absolute;
+    top: 27.5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.input-image,#image-holder-banner,#image-holder1,#image-holder2,#image-holder3,#image-holder4,#image-holder5,#image-holder6,#image-holder7,#image-holder8{
+    display: none;
+}
+#image-holder-banner:hover,#image-holder1:hover,#image-holder2:hover,#image-holder3:hover,#image-holder4:hover,#image-holder5:hover,#image-holder6:hover,#image-holder7:hover,#image-holder8:hover{
+    cursor: pointer;
+}
+#table_seletion{
+    margin-bottom: 0px !important;
+}
+.product_img_list{
+    height:320px;
+}
+.del{ color: red;}
+.del,.showDec{
+    font-size: 18px;
+}
+.del:hover,.showDec:hover{
+    cursor: pointer;
+}
+
+/* Orders */
+.date_picker_order {
+    margin: 2em;
+  }
+  
+.flex-v-center {
+      display: flex;
+      align-items: center;
+}
+.bg_login{
+    background-image: url("../../app-assets/img/bg_login.png") !important;
+}
+#login_bg_color{
+    background-color: rgba(255, 255, 255, 0.99) !important;
+}
+#login_bg_color .card ,#login_bg_color .card-header{
+    background: transparent !important;
+}
+#back-image-cover{
+    background: url('../../app-assets/img/bg_cover.png');
+}
+
+
+.bg-card {
+    background:  rgb(242, 242, 242);
+    
+}
+
+.btn-cancel-order{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 24px;
+    border: 2px solid #e6e6e6 ;
+}
+
+.btn-cancel-order:hover {
+    background-color: #b8b8b8;
+}
+
+.card-order-position{
+   padding: 0px 24px;
+   height: 50px; 
+}
+
+.img-profile{
+    display: inline-block;
+    border-radius: 50%;
+  
+    object-fit: cover;
+}
+
+.btn-follow-color{
+   background-color: #70c31d;
+   color: white;
+}
+
+
+/* Order ID Lists Table */
+.table-order-list {
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+  }
+  
+  .th-order-list, .td-order-list {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .tr-order-list:nth-child(even){background-color: #f2f2f2}
+  
+  .th-order-list {
+    background-color: #d6dad8;
+    color: black;
+  }
+
+  .th-order-list-row{
+    table-layout: fixed; 
+    width: 20px;
+    text-align: right;
+  }
+
+  td.center{
+      text-align: center;
+  }
+
+  th.paid, td.paid{
+     text-align: right;
+  } 
+
+  td.paid{
+      width: 150px;
+  }
+
+
+.tag-transport{
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #70c31d;
+    color: white;
+
+}
+
+.margin-left-auto{
+    margin-left: auto;
+}
+
+.orders-id-color{
+    text-decoration-color: #00cc00;
+}
+
+/*-------------------------------------------------------------*/
+label.cabinet{
+	display: block;
+	cursor: pointer;
+}
+/* หมายเลขคำสั่งซื้อ card content */
+.padding-bt-card{
+    padding-bottom: 15px;
+}
+
+/* Orders Details */
+
+.submit-status{
+    color: white;
+    background-color: #83BD1A !important;
+}
+
+.dropdown-status-outline{
+  outline: black;
+}
+
+/* Print form */
+
+/*-------------------------------------------------------------*/
+label.cabinet{
+	display: block;
+	cursor: pointer;
+}
+
+label.cabinet input.file{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    margin-top:-30px;
+}
+
+#upload-demo{
+	width: 100%;
+	height: 350px;
+    padding-bottom:25px;
+}
+figure figcaption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px #000;
+}
+#cropImagePop{
+    /* width: 80% !important; */
+    padding-left:15px !important;
+    padding-right:15px !important;
+	margin: auto;
+}
+#title-shop{font-size:2.3rem;}
+
+.text-success2{
+    color:#83BD1A !important ;
+}
+
+.text-red{
+    color: red !important;
+}
+
+.font-18{
+    font-size: 18px !important;
+}
+
+/* HOME */
+.home_do{
+    height:100px;
+    /* line-height: 100px; */
+    text-align:center;
+}
+.home_do a{
+    color: #555555 !important;
+}
+.home_do h2{
+    color: #62C902 !important;
+}
+.border_r{
+    border-right:1px solid #f1f1f1;
+}
+.border_b{
+    border-bottom:1px solid #f1f1f1;
+}
+.pt10{
+    padding-top:10px;
+}
+
+
+
+#price_fee,#price_real{
+    color: #62C902 !important;
+    font-size:18px;
+}
+
+.text-gray{
+    color:gray !important;
+}
+.text-black{
+    color: black !important;    
+}
+.none-style{
+    list-style: none;
+}
+.del_unit{
+    color:red;
+    font-size:16px;
+}
+.del_unit:hover{
+    cursor: pointer;
+}
+
+
+.chat_button{
+    position: fixed;
+    z-index: 999999;
+    bottom: 3rem;
+    right: 2rem;
+    border-radius: 68%;
+    background-color: #62C902;
+    font-size: 2rem !important;
+    padding: 1rem !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08) !important;
+    cursor: pointer;
+    color:white;
+}
+#chat_count_all{
+    position: fixed;
+    z-index: 999999;
+    bottom: 5.6rem;
+    right: 1.8rem;
+}
+.noti_count_chat{
+    position: absolute !important;
+    right: 1rem !important;
+}
+.hr-blue{
+    border:2px solid #62c902 !important;
+}
+.color-gray{
+    color:gray !important;
+}
+.report_finance{
+    width:100%;
+    padding:0;
+}
+.report_finance li{
+    list-style: none;
+    font-size:14px;
+}
+#finance_detail #name_ {
+    font-size: 1.5rem;
+}
+.finance_font_15 {
+    font-size: 1.5rem;
+}
+#finance_table,#finance_detail_table{
+    width:100%;
+    border:1px solid #f0f0f0;
+}
+#finance_table .header-tr,#finance_detail_table .header-tr{
+    height:45px;
+}
+#finance_detail_table .header-tr2{
+    height:80px;
+}
+#finance_detail_table .header-tr2 th{
+    padding-left:15px;
+}
+#finance_table .header-tr th,#finance_table td,#finance_detail_table td{
+    padding-left:15px;
+    padding-right:15px;
+}
+.table_body{
+    height:45px;
+}
+.mt15{
+    margin-top:15px;
+}
+#finance_detail_table .header-tr th{
+    width: 100%;
+    padding-left:15px;
+}
+.mb20{
+    margin:20px;
+}
+.link_bank_account{
+    font-size: 16px;
+}
+#hide-button{
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+#hide-button2{
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.finance_wallet_add{
+    border: 2px dashed #cdcdcd;
+    /* padding: 60px; */
+    text-align: center;
+    border-radius: 15px;
+}
+.finance_wallet_add:hover{
+    cursor: pointer;
+}
+.finance_wallet_card{
+    border:1px solid #cdcdcd;
+    text-align: center;
+    border-radius: 15px;
+    /* height: 200px; */
+    -webkit-box-shadow: 1px 2px 5px -1px rgba(199,199,199,1);
+    -moz-box-shadow: 1px 2px 5px -1px rgba(199,199,199,1);
+    box-shadow: 1px 2px 5px -1px rgba(199,199,199,1);
+}
+.finance_wallet_card:hover{
+    cursor: pointer;
+}
+.finance_wallet_add i{
+    font-size: 35px;
+    color:#b9b9b9;
+    position: relative;
+    top: 45%;
+}
+.labelShowWalletDetail{
+    color: #a2a2a2;
+    font-size:12px;
+}
+#chat_file_upload{
+    cursor: pointer;
+}
+@media print {
+    @page { margin: 0; }
+    body { margin: 1.6cm; }
+}
+/* For Printing Parcel Start*/
+@media print {
+    /* // กำหนดให้สีในหน้าเว็บสามารถพิมพ์ได้อย่างถูกต้อง */
+    body {-webkit-print-color-adjust: exact;} 
+    /* // เนื้อหาในคลาส hideWhenPrint จะถูกปิดตาทิ้งไปเมื่อพิมพ์บนกระดาษ */
+	.hideWhenPrint { 
+	  display: none;
+	}
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .headerParcel {
+    border: 3px solid black;
+    padding: 20px;
+  }
+  
+  .menuParcel {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    border: 1px solid black;
+  }
+  
+  .mainParcel {
+    width: 50%;
+    height: 15%;
+    float: left;
+    padding: 15px;
+    border: 2px solid black;
+  }
+
+  .footerParcel {
+    border: 3px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .tableParcel {
+    width: 100%;
+    
+    float: left;
+    padding: 15px;
+    border: 1px solid black;
+  }
+
+  .scissorsSpace {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+/* For Printing Parcel End*/
+
+
+/* CheckStatus */
+
+  /* END CheckStatus */
